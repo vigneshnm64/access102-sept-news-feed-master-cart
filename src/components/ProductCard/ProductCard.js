@@ -25,8 +25,8 @@ function ProductCard(props) {
           <Typography variant="body2" color="text.secondary">
             {product.description}    
           </Typography>
-          <p>{product.price}</p>
-          <p>{product.rating.rate} </p>
+          <p> PRICE {product.price}</p>
+          <p>RATING {product.rating.rate} </p>
         </CardContent>
       </CardActionArea>
     </Card>
